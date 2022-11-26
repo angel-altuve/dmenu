@@ -16,7 +16,7 @@ static int instant = 0;                     /* -n  option; if 1, selects matchin
 #endif // INSTANT_PATCH
 #if CENTER_PATCH
 static int center = 0;                      /* -c  option; if 0, dmenu won't be centered on the screen */
-static int min_width = 500;                 /* minimum width when centered */
+static int min_width = 680;                 /* minimum width when centered */
 #endif // CENTER_PATCH
 #if BARPADDING_PATCH
 static const int vertpad = 10;              /* vertical padding of bar */
@@ -79,8 +79,9 @@ static unsigned int lines      = 0;
  * 7. solarized-dark.h
  * 8. solarized-light.h
  * 9. tomorrow-night.h
+ * 11.catppuccin.h
  */
-#include "colors/dracula.h"
+#include "colors/catppuccin.h"
 
 #if GRID_PATCH
 /* -g option; if nonzero, dmenu uses a grid comprised of columns and lines */
